@@ -19,4 +19,5 @@ ENV N8N_PORT=5678
 ENV N8N_PROTOCOL=http
 ENV N8N_RUNNERS_ENABLED=true
 
-CMD ["n8n", "start"]
+# Usar npx ou deixar o CMD padrão da imagem
+CMD ["npx", "n8n", "start"]
